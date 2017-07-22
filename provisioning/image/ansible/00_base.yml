@@ -3,7 +3,6 @@
   become: yes
   gather_facts: no
   tasks:
-    - copy: src=../files/etc/apt/sources.list dest=/etc/apt/sources.list owner=root mode=644
     - apt: update_cache=yes
     - apt: upgrade=dist
     - apt: name=git state=present
