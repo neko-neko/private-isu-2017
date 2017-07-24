@@ -5,8 +5,6 @@
 ```bash
 $ sudo apt-get install python2.7
 $ sudo ln -s /usr/bin/python2.7 /usr/bin/python
-$ sudo apt install python-pip
-$ sudo pip install MySQL-python
 ```
 
 # 競技用インスタンスのセットアップ方法
