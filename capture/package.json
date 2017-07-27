@@ -1,0 +1,16 @@
+{
+  "name": "capture",
+  "version": "1.0.0",
+  "description": "Office365 auto login crawler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "neko-neko",
+  "license": "ISC",
+  "dependencies": {
+    "phantom": "^4.0.2",
+    "phantomjs": "^2.1.7"
+  }
+}
